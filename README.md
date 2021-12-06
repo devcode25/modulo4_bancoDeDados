@@ -53,7 +53,9 @@ A estrutura dos bancos é dinâmico e não precisam de estrutura previa, a estru
  ### <REALIZANDO COMANDOS DO MONGODB NO TERMINAL CMD>
  
  Para iniciar o serviço do mongo:
- ´´> mongod
+ 
+ ´´
+ > mongod
  ´´
  
 
