@@ -54,9 +54,9 @@ A estrutura dos bancos é dinâmico e não precisam de estrutura previa, a estru
  ## Comandos do MongoDB no terminal CMD/MONGOSHEL 
  
   
- - Para iniciar o serviço do mongo, abra p terminal CMD e digite: #### mongod
+ - Para iniciar o serviço do mongo, abra p terminal CMD e digite ==> mongod
  
- - Agora você inicia o mongo shell, deixando o terminal disponível para a execução de comandos, abra outro terminal CMD e digite: #### mongo
+ - Agora você inicia o mongo shell, deixando o terminal disponível para a execução de comandos, abra outro terminal CMD e digite ==> mongo
 
 
 #### Para criar o banco de dados
