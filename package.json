@@ -1,0 +1,26 @@
+{
+  "name": "modulo4_bancodedados",
+  "version": "1.0.0",
+  "description": "Banco de dados, é uma coleção organizada de dados de uma determinada empresa, \r separadas e armazenadas por pastas e protegidas, a fim de evitar acessos indevidos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcode25/modulo4_bancoDeDados.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devcode25/modulo4_bancoDeDados/issues"
+  },
+  "homepage": "https://github.com/devcode25/modulo4_bancoDeDados#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.15",
+    "nodemon": "^2.0.15"
+  }
+}

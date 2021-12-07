@@ -5,7 +5,7 @@ const mongoose = require("mongoose")
 const app = express()
 
 //String de conexão
-mongoose.connect("mongodb://localhost:27017/reprograma", { 
+mongoose.connect("mongodb://localhost:27017/senac", { 
   useNewUrlParser: true, 
   useUnifiedTopology: true 
 });
