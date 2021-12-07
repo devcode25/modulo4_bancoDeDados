@@ -50,8 +50,7 @@ A estrutura dos bancos é dinâmico e não precisam de estrutura previa, a estru
  ![image](https://user-images.githubusercontent.com/93724227/143957319-f66ad832-5100-4293-b187-b8255c36f484.png)
 
 
- 
- 
+  
  ## Comandos do MongoDB no terminal CMD/MONGOSHEL 
  
   
@@ -59,22 +58,46 @@ A estrutura dos bancos é dinâmico e não precisam de estrutura previa, a estru
  
  - Agora você inicia o mongo shell, deixando o terminal disponível para a execução de comandos, abra outro terminal CMD e digite: #### mongo
 
-#### use <databaseName>
-Para buscar todos os registros sem filtro algum utilizamos o comando find:
 
-#### db.collectionName.find()
-Para buscar registros a partir de um filtro:
+#### Para criar o banco de dados
+ 
+use <databaseName>
+ 
+ 
+#### Para apagar o banco de dados
 
-db.collectionName.find({filtros})
-Para inserir registros novos dentro do banco de dados:
+db.dropdatabase(NOME_DO_DATABASE)
+ 
+ 
+#### Para criar uma collection
 
-#### db.collectionName.inserMany/insertOne({objeto a ser inserido})
-Para atualizar registros dentro do banco de dados:
+db.createcollection("NOME_DA_COLLECTION")
+ 
+
+#### Para buscar todos os registros sem filtro algum utilizamos o comando find:
+
+db.collectionName.find()
+ 
+
+#### Para buscar registros a partir de um filtro:
+
+ db.collectionName.find({filtros})
+ 
+
+#### Para inserir registros novos dentro do banco de dados:
+
+db.collectionName.inserMany/insertOne({objeto a ser inserido})
+ 
+
+#### Para atualizar registros dentro do banco de dados:
 
 db.collectionName.updateMany/updateOne({filtros},{ $set: {campos a serem atualizados}})
-Para remover regisros dentro do banco de dados:
+ 
 
-#### db.collectionName.deleteOne/deleteMany({filtros})
+#### Para remover regisros dentro do banco de dados:
+
+db.collectionName.deleteOne/deleteMany({filtros})
+ 
 
 Vimos também que quando incluímos um registro no mongo, ele gera um Id único, chamado Object_id, que nada mais é do que um identificador único gerado no momento que o registro é salvo no banco de dados, esse object id é composto pela data e hora que o registro foi incluído no banco.
 
