@@ -52,29 +52,29 @@ A estrutura dos bancos é dinâmico e não precisam de estrutura previa, a estru
 
  
  
- # <COMANDOS DO MONGODB NO TERMINAL CMD/MONGOSHEL>
+ ## Comandos do MongoDB no terminal CMD/MONGOSHEL 
  
   
- #### Para iniciar o serviço do mongo, abra p terminal CMD e digite: mongod
+ - Para iniciar o serviço do mongo, abra p terminal CMD e digite: #### mongod
  
- #### Agora você inicia o mongo shell, deixando o terminal disponível para a execução de comandos, abra outro terminal CMD e digite: mongo
+ - Agora você inicia o mongo shell, deixando o terminal disponível para a execução de comandos, abra outro terminal CMD e digite: #### mongo
 
-use <databaseName>
+#### use <databaseName>
 Para buscar todos os registros sem filtro algum utilizamos o comando find:
 
-db.collectionName.find()
+#### db.collectionName.find()
 Para buscar registros a partir de um filtro:
 
 db.collectionName.find({filtros})
 Para inserir registros novos dentro do banco de dados:
 
-db.collectionName.inserMany/insertOne({objeto a ser inserido})
+#### db.collectionName.inserMany/insertOne({objeto a ser inserido})
 Para atualizar registros dentro do banco de dados:
 
 db.collectionName.updateMany/updateOne({filtros},{ $set: {campos a serem atualizados}})
 Para remover regisros dentro do banco de dados:
 
-db.collectionName.deleteOne/deleteMany({filtros})
+#### db.collectionName.deleteOne/deleteMany({filtros})
 
 Vimos também que quando incluímos um registro no mongo, ele gera um Id único, chamado Object_id, que nada mais é do que um identificador único gerado no momento que o registro é salvo no banco de dados, esse object id é composto pela data e hora que o registro foi incluído no banco.
 
