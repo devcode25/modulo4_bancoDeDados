@@ -61,7 +61,7 @@ A estrutura dos bancos é dinâmico e não precisam de estrutura previa, a estru
 
 #### Para criar o banco de dados
  
-use <databaseName>
+use <NOME_DO_DATABASE>
  
  
 #### Para apagar o banco de dados
