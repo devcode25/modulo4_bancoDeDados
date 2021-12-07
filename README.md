@@ -49,12 +49,15 @@ A estrutura dos bancos é dinâmico e não precisam de estrutura previa, a estru
  
  ![image](https://user-images.githubusercontent.com/93724227/143957319-f66ad832-5100-4293-b187-b8255c36f484.png)
 
+
  
- ### COMANDOS DO MONGODB NO TERMINAL CMD/MONGOSHEL
  
- - Para iniciar o serviço do mongo, abra p terminal CMD e digite: mongod
+ # <COMANDOS DO MONGODB NO TERMINAL CMD/MONGOSHEL>
  
- - Agora você irá iniciar o mongo shell, deixando o terminal disponível para a execução de comandos, abra outro terminal CMD e digite: mongo
+  
+ #### Para iniciar o serviço do mongo, abra p terminal CMD e digite: mongod
+ 
+ #### Agora você inicia o mongo shell, deixando o terminal disponível para a execução de comandos, abra outro terminal CMD e digite: mongo
 
 use <databaseName>
 Para buscar todos os registros sem filtro algum utilizamos o comando find:
