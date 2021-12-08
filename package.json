@@ -2,7 +2,7 @@
   "name": "modulo4_bancodedados",
   "version": "1.0.0",
   "description": "Banco de dados, é uma coleção organizada de dados de uma determinada empresa, \r separadas e armazenadas por pastas e protegidas, a fim de evitar acessos indevidos.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

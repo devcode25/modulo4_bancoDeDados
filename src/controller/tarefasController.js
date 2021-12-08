@@ -24,6 +24,8 @@ const getById = (req, res) => {
   })
 };
 
+
+
 const postTarefa = (req, res) => {
   console.log(req.body)
   
@@ -37,6 +39,7 @@ const postTarefa = (req, res) => {
   })
   
 };
+
 
 const deleteTarefa = (req, res) => {
   const id = req.params.id;
